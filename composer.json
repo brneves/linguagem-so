@@ -1,0 +1,27 @@
+{
+  "name": "brneves/linguagemSO",
+  "description": "Desenvolvimento do jogo para a disciplina de Linguagem de Programação e Sistemas Operacionais",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ronaldo Neves",
+      "email": "br_neves8@yahoo.com.br",
+      "role" : "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\" : "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "phpmailer/phpmailer" : "6.0.*"
+  }
+}
